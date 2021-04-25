@@ -15,8 +15,8 @@ app.use(cors());
 
 var twilio = require("twilio");
 
-var accountSid = "ACda803fe28e3b582cf3b545e7cf6c7f55"; // Your Account SID from www.twilio.com/console
-var authToken = "4ec41599c38745ccb11941e45bacb5a5"; // Your Auth Token from www.twilio.com/console
+var accountSid = SID; // Your Account SID from www.twilio.com/console
+var authToken = AUTH; // Your Auth Token from www.twilio.com/console
 var client = new twilio(accountSid, authToken);
 
 console.log("hello!");
